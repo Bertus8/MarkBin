@@ -1,0 +1,73 @@
+body {
+  padding: 0px;
+  font-family: Tahoma;
+  background: -moz-linear-gradient(90deg, rgba(255, 255, 255, 1) 14%, rgba(208, 253, 255, 1) 85%, rgba(206, 237, 255, 1) 100%);
+  background: -webkit-linear-gradient(90deg, rgba(255, 255, 255, 1) 14%, rgba(208, 253, 255, 1) 85%, rgba(206, 237, 255, 1) 100%);
+  background: linear-gradient(90deg, rgba(255, 255, 255, 1) 14%, rgba(208, 253, 255, 1) 85%, rgba(206, 237, 255, 1) 100%);
+}
+
+#login-buttons {
+  margin: 18px;
+  font-size: 14px;
+}
+
+.list-group-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.bins-share {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  padding: 20px;
+  position: absolute;
+  bottom: 0;
+  width: 100vw;
+  background-color: rgb(61, 61, 61);
+  color: #ffffff;
+}
+
+.output-container {
+  background-color: rgb(61, 61, 61);
+  color: #ffffff;
+  padding: 20px;
+  min-height: 300px;
+  -webkit-box-shadow: 5px 5px 5px -1px rgba(0, 0, 0, 0.21);
+  -moz-box-shadow: 5px 5px 5px -1px rgba(0, 0, 0, 0.21);
+  box-shadow: 5px 5px 5px -1px rgba(0, 0, 0, 0.21);
+}
+
+.container-mirror{
+  -webkit-box-shadow: 1px 1px 3px -1px rgba(160, 160, 160, 0.21);
+  -moz-box-shadow: 1px 1px 3px -1px rgba(160, 160, 160, 0.21);
+  box-shadow: 1px 1px 3px -1px rgba(160, 160, 160, 0.21);
+}
+
+.sharedWith-container{
+  padding: 10px;
+}
+
+h1 {
+  color: #cbff6a;
+}
+
+h2 {
+  color: rgb(175, 209, 238);
+}
+
+h3 {
+  color: aqua;
+}
+
+h4 {
+  color: aquamarine;
+}
+
+h5 {
+  color: rgb(32, 137, 197);
+  font-weight: bold;
+}
